@@ -1,32 +1,11 @@
-# Prerequisites
-*.d
+#忽略所有文件和目录
+* 
+#增加指定扩展名文件和MAKEFILE文件
+!*.cpp
+!*.c
+!*.h
+!makefile
+ 
+#当前目录下需要提交的文件                                                                                                                                                  
+!README.md
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
