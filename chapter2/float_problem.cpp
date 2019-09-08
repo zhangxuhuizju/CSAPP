@@ -57,7 +57,7 @@ float_bits float_twice(float_bits f) {
     }
     return signal << 31 | exp << 23 | frac;
 }
-
+ 
 int main(int argc, char const *argv[])
 {
     std::cout << u2f(float_twice(f2u(23.22))) << std::endl;
